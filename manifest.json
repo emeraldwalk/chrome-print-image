@@ -1,0 +1,15 @@
+{
+  "name": "Open Image for Print",
+  "description": "Chrome extension for opening an image in a new tab that can be used to print it in full page.",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "permissions": ["contextMenus", "tabs"],
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
